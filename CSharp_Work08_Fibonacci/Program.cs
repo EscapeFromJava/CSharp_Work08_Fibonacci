@@ -18,8 +18,7 @@ namespace CSharp_Work08_Fibonacci
                 Console.WriteLine("Ответ 1");
             else
             {
-                numbers.Add(1);
-                numbers.Add(1);
+                numbers.AddRange(new int[] { 1, 1 });
                 for (int i = 2; i < size; i++)
                 {
                     x = numbers[i - 2] + numbers[i - 1];
